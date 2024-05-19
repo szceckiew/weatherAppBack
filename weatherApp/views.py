@@ -18,6 +18,9 @@ schema = {
     "required": ["latitude", "longitude"]
 }
 
+def index(request):
+    return render(request, 'index.html')
+
 def get_weather_data(request, latitude, longitude):
     lat_long = {"latitude": latitude, "longitude": longitude}
     try:

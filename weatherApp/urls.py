@@ -22,4 +22,5 @@ register_converter(FloatConverter, 'float')
 
 urlpatterns = [
     path('<float:latitude>/<float:longitude>/', views.get_weather_data, name='get_weather_data'),
+    path('', views.index),
 ]
