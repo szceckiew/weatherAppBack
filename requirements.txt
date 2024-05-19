@@ -3,3 +3,4 @@ django==5.0.1
 gunicorn==21.2.0
 requests==2.31.0
 jsonschema==4.22.0
+django-cors-headers==4.3.1
